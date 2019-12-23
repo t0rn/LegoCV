@@ -25,4 +25,15 @@ LegoCV is native OpenCV framework built for Swift and Objective-C projects. It e
     subspec.source_files = 'LegoCV/LegoCV/Wrapper/**/*.{h,m,mm}'
   end
 
+s.frameworks = 'Accelerate',
+  'AssetsLibrary',
+  'AVFoundation',
+  'CoreGraphics',
+  'CoreImage',
+  'CoreMedia',
+  'CoreVideo',
+  'Foundation',
+  'QuartzCore',
+  'UIKit'
+  
 end
